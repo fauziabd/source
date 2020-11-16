@@ -1,4 +1,4 @@
-export default (req, res) => {
+export default async (req, res) => {
     res.json({
         body: req.body,
         query: req.query,
