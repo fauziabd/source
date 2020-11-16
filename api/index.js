@@ -1,7 +1,3 @@
 export default async (req, res) => {
-    res.json({
-        body: req.body,
-        query: req.query,
-        cookies: req.cookies,
-    })
+    res.json(req)
 }
