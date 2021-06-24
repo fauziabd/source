@@ -5,6 +5,7 @@
       "use": "@vercel/node"
     }
   ],
+  "public": true,
   "github": {
     "silent": true
   }
