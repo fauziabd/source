@@ -1,8 +1,8 @@
 {
-  "builds": [
+  "rewrites": [
     {
-      "src": "*.mjs",
-      "use": "@vercel/node@canary"
+      "source": "(.*)",
+      "destination": "/api/index.mjs"
     }
   ],
   "public": true,
