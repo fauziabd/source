@@ -24,5 +24,5 @@ export default async function (req, res) {
   await page.goto('https://github.com', {waitUntil: 'domcontentloaded'})
   
   res.setHeader('content-type', 'text:plain')
-  res.send(await page.content())
+  res.send(page.content())
 }
