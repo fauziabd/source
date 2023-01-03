@@ -25,6 +25,4 @@ export default async function (req, res) {
   
   res.setHeader('content-type', 'text:plain')
   res.send(await page.content())
-
-  await browser.close()
 }
