@@ -1,0 +1,21 @@
+{
+  "name": "Source Code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6",
+    "chrome-aws-lambda": "10.1.0",
+    "puppeteer-core": "10.1.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
