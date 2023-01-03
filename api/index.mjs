@@ -23,7 +23,7 @@ export default async function (req, res) {
   const page = await browser.newPage()
   await page.goto('https://github.com', {waitUntil: 'domcontentloaded'})
   
-  res.header({'content-type': 'text:plain'})
+  res.setHeader('content-type', 'text:plain')
   res.send(await page.content())
 
   await browser.close()
